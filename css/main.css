@@ -1,0 +1,99 @@
+body{
+  background-image:url("/img/fondoB.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
+  overflow: scroll;
+}
+.cabecera{
+  background: #FFF;
+  text-align: center;
+  border-radius: 10px;
+  border-color: brown;
+  border-style: solid;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom-width: 10px;
+}
+.titulo{
+  color: #000;
+  font-weight: bold;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 60px;
+}
+.subtitulo{
+  color: #000;
+  font-style: italic;
+  font-family: inherit;
+  font-size: 20px;
+}
+.menu{
+  text-align: center;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background-color: #FFF;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.cuerpo-principal{
+  background-color: #F5DA81;
+  color: #000;
+  width: 70%;
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+  -webkit-box-shadow: 7px 9px 5px #999;
+  -moz-box-shadow: 7px 9px 5px #999;
+}
+.critica{
+  margin: 50px;
+  text-align: justify;
+  font-family: cursive;
+}
+
+.titulo-contenedor{
+  background-color: #FFF;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.posicion{
+  height: 170px;
+  float: left;
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
+  margin: 0px 20px 10px 0px;
+}
+.centrado{
+  text-align: center;
+}
+.centrado2{
+  height: 30%;
+  width: 25%;
+  margin-left: 40%;
+}
+.critica ul li{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+}
+.critica ul li ul li{
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+.imagen{
+  height: 30%;
+  width: 25%;
+  float: left;
+  margin: 20px 30px;
+}
